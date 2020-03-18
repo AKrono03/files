@@ -5,7 +5,7 @@ public class start
 	public static void main(String[] args)
 	{
 		shoppingcart C = new shoppingcart();
-		C.addToCart("Caffè", 2);
+		C.addToCart("Caffï¿½", 2);
 		C.addToCart("Latte", 1);
 		C.addToCart("Pringles", 3);
 		C.addToCart("Fesa", 11);
@@ -13,7 +13,7 @@ public class start
 		C.addToCart("Apple Care +", 99);
 		C.removeToCart("Latte");
 		C.removeToCart("Fesa");
-		C.addToCart("Echo Dot", 18);
+		C.addToCart("Echo Dot", 18); //Piccola modifica innocente
 		C.addToCart("Carta Igenica", 2);
 		
 		
